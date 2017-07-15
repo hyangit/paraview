@@ -1,5 +1,5 @@
-# paraview-5.4.0
+# paraview
 paraview 5.4.0 docker
 ```
-docker pull paraview:5.4.0
+docker pull hyangit/paraview:5.4.0
 ```
