@@ -55,7 +55,7 @@ COPY install.sh /root/build/
 RUN git clone https://github.com/Kitware/ParaView.git /root/ParaView_src \
 && cd /root/ParaView_src \
 && git config submodule.VTK.url https://github.com/Kitware/VTK.git \
-&& git checkout v5.4.0 \
+&& git checkout 5.4.0 \
 && git submodule init \
 && git submodule update \
 && cd /root/build \
